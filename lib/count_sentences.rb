@@ -19,7 +19,6 @@ class String
     arr.each do |word|
       if word.end_with?("?") || word.end_with?(".") || word.end_with?("!")
         count++
-      end
     end
     count
   end
