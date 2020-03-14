@@ -15,8 +15,15 @@ class String
 
   def count_sentences
     arr = self.split(" ")
-    arr
+    count = 0
+    arr.each |word|
+      if word.end_with?("?") || word.end_with?(".") || word.end_with?("!")
+        count++
+      end 
+    end
+    count
   end
+  
 end
 
 
