@@ -19,11 +19,11 @@ class String
     arr.each |word|
       if word.end_with?("?") || word.end_with?(".") || word.end_with?("!")
         count++
-      end 
+      end
     end
     count
   end
-  
+
 end
 
 
