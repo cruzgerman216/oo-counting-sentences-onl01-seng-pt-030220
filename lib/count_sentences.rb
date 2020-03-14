@@ -14,8 +14,8 @@ class String
   end
 
   def count_sentences
-    str = self.split(" ")
-    str
+    arr = self.split(" ")
+    arr
   end
 end
 
